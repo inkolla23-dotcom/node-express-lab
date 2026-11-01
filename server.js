@@ -5,13 +5,13 @@ const PORT = 3000;
 
 // Home route
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome to my Node.js and Express Server!");
+  res.status(200).send("Welcome to my Node.js and Express server!");
 });
 
 // About route
 app.get("/about", (req, res) => {
   res.status(200).json({
-    name: "Indhu Kolla",
+    name: "Kolla Indhu",
     section: "AIML 2B"
   });
 });
@@ -19,16 +19,16 @@ app.get("/about", (req, res) => {
 // Time route
 app.get("/time", (req, res) => {
   res.status(200).json({
-    currentDateTime: new Date()
+    dateTime: new Date()
   });
 });
 
-// 404 handler for unknown routes
+// 404 route - for unknown paths
 app.use((req, res) => {
-  res.status(404).send("404 - Page Not Found");
+  res.status(404).send("404 - Page not found");
 });
 
-// Start the server
+// Start server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
