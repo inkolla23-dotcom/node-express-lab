@@ -72,13 +72,13 @@ I faced minor issues while setting up the Express server and understanding route
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/Screenshot 2026-11-01 134959.png)
+![Home Page](screenshots/home.png)
 
 ### About Route
-![About Route](screenshots/Screenshot 2026-11-01 135016.png)
+![About Route](screenshots/about.png)
 
 ### Time Route
-![Time Route](screenshots/Screenshot 2026-11-01 135026.png)
+![Time Route](screenshots/time.png)
 
 ### Error Handling
-![Error Handling](screenshots/Screenshot 2026-11-01 135038.png)
+![Error Handling](screenshots/anything.png)
