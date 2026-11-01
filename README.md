@@ -32,7 +32,7 @@ node server.js
 
 The server will run at:
 
-`http://localhost:3000`
+`https://node-express-lab-s8k9.onrender.com`
 
 ## Endpoints
 
