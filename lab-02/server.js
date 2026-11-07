@@ -107,11 +107,14 @@ app.delete("/books/:id", async (req, res) => {
             message: "Book deleted successfully"
         });
     } catch (err) {
-        res.status(500).json({ error: err.message });
+        res.status(500).json({
+            error: err.message
+        });
     }
 });
 
-const PORT = 3000;
+// Use Render's port in deployment, or port 3000 locally
+const PORT = process.env.PORT || 3000;
 
 // Initialize database and start server
 async function initializeDBAndServer() {
