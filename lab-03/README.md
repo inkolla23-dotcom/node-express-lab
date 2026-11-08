@@ -6,7 +6,17 @@
 
 ## Live Link
 
-Not deployed yet.
+## Live API
+
+The Book API is successfully deployed on Render and can be accessed using the following link:
+
+https://lab-03-book-api.onrender.com
+
+### API Endpoint
+
+To view all books:
+
+https://lab-03-book-api.onrender.com/books
 
 ## About the Project
 
