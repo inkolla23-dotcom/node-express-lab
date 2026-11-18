@@ -9,7 +9,7 @@
 
 ## Live Link
 
-Deployment is pending. The application is currently tested locally using Postman.
+[Lab 04 Live API](https://lab-04-auth-api.onrender.com)
 
 ## Project Description
 
