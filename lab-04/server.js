@@ -75,9 +75,11 @@ const initializeDBAndServer = async () => {
   try {
     db = await initializeDB()
 
-    app.listen(3000, () => {
-      console.log('Server Running at http://localhost:3000/')
-    })
+    const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+  console.log(`Server Running at port ${port}`)
+})
   } catch (error) {
     console.log(`DB Error: ${error.message}`)
     process.exit(1)
